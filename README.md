@@ -2,9 +2,9 @@
 Proyecto de demostración que ilustra el uso de [api-sitna](https://github.com/sitna/api-sitna) mediante Spring Boot.
 
 Para arrancarlo hay que ir a la ruta local del proyecto y ejecutar este comando:
-
-`mvnw spring-boot:run`
-
+```
+mvnw spring-boot:run
+```
 La aplicación web se mostrará en http://localhost:8080/.
 
 ---
