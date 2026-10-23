@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Spring Boot + API SITNA</title>
+
+    <link rel="stylesheet"
+          href="/webjars/api-sitna/4.9.2/css/sitna.css">
+
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #mapa {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="mapa" class="map"></div>
+
+<script src="/webjars/api-sitna/4.9.2/sitna.js"></script>
+
+<script>
+    var map = new SITNA.Map("mapa");
+</script>
+
+</body>
+</html>
